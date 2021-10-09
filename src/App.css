@@ -1,0 +1,114 @@
+html{
+  background-color: oldlace;
+}
+
+.App {
+  background-color:whitesmoke;
+}
+
+.navlink{
+  text-decoration: none;
+}
+
+.skills{
+  color: #79a1f0;
+  text-align: center;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: rgb(32, 28, 255);
+  background-color: #79a1f0;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid rgb(85, 1, 221);
+}
+
+.App-header {
+  background-color: #79a1f0;
+  min-height:10vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+ 
+}
+
+.btn :hover{  
+  background-color: #5687e9;
+  height:100%;
+  border-radius: 20%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.photocv{         
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    margin: 2px;
+    margin-left: 50px;
+    border-radius: 50%;   
+}
+
+.photoandtext{
+  margin-top: 20px;;
+  text-align: center;
+} 
+
+.presentation{  
+  text-align: center;
+}
+
+.texto{
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 50px;
+  margin-top: 25px;;
+}
+
+.contacto{
+  margin: 10%;
+  align-content: center;
+  margin-left: 25%;
+}
+
+.parallax-card{
+  width: 75%;
+}
+
+.contentcard{
+  padding: 25px;  
+}
+
+.title{
+  text-align: center;
+}
+
+.iconocontacto{
+  width: 10%;  
+  border-radius: 50%;  
+}
+
+.contactitem{
+  display: inline;  
+}
+
+.icon{
+  float: left;
+  margin-right: -175px;
+}
+
+.textcontact{
+ 
+  float: inline-start;
+}
