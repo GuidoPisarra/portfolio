@@ -1,29 +1,31 @@
+import React from 'react';
 import './App.css';
-import NavBar from './components/NavBar'
 import LangCarusel from './components/LangCarusel';
 import Card from './components/Card';
 import Card3d from './components/Card3d';
 import Formacion from './components/Formacion';
+import CardLang from './components/CardLang';
+import Presentation from './components/Presentation';
 
+import {
+  BrowserRouter as Router,
+  Route
+} from "react-router-dom";
+import Home from './components/Presentation'
+import Page from './Page'
 
 
 function App() {
   return (
-    <div className="App">        
-      <NavBar title="Pisarra Guido"/>
-      <Card/>
-      <div>
-        <h1 className="skills"> Tengo conocimientos en : </h1>
-        <LangCarusel/>
+    <Router>
+      <div >
+      
+          <Route exact path="/" component={Home}/>
+          <Route path="/page" component={Page}></Route>
+        
       </div>
-      <div>
-        <Formacion/>
-      </div>        
-      <div className="contacto">
-        <Card3d/>                 
-      </div>      
-  </div>
+    </Router>
   );
 }
-
 export default App;
+
