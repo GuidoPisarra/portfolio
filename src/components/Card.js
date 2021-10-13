@@ -12,9 +12,9 @@ class Card extends Component{
             </div>
             <div className='presentation'>                
                 <div className="texto">
-                    Soy Estudiante de la carrera Tecnicatura Universitaria en 
-                    Desarrollo de Aplicaciones Informáticas. 
-                    Me encuentro en la búsqueda de mi primer empleo en este sector.
+                    Me encuentro cursando la Tecnicatura Universitaria en 
+                    Desarrollo de Aplicaciones Informáticas, perteneciente a la Universidad 
+                    Nacional del Centro de la Provincia de Buenos Aires. 
                 </div>                
              </div> 
         </div>               

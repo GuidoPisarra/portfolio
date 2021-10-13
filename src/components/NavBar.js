@@ -5,11 +5,11 @@ class NavBar extends Component{
         return(
             <header className="App-header">
             <nav className="navbar">
-            <a className="navlink" href="/">              
+                          
               <span>
                 {this.props.title}
               </span>
-            </a>
+            
           </nav>
           </header>
         )

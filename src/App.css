@@ -4,14 +4,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html{
+  background:linear-gradient(to left, #2C5364, #5c8694, #6ec0e4)
+}
 .index{
   width: 35%;
   height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 25%;
+  margin-left: 30%;
   margin-top: 10%;
   position: relative;
   perspective: 1000px;
@@ -19,10 +21,8 @@
 }
 
 .header{
-  position: relative;
-  
-  height: 100vh;
-  
+  position: relative;  
+  height: 100vh;  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,10 +33,9 @@
   content: ' ';
   position: absolute;
   top: 100%;
-  left: 0;
-  
+  left: 0;  
   height: 100%;
-  background-color: #fff;
+  background-color: #6ec0e4;
   animation: slide-in 1s forwards 1;
 }
 
@@ -54,12 +53,12 @@
   0%{
     transform: rotateX(180deg);
     height: 100vh;
-    background-color: #fbfbfb;
+    background-color: #6ec0e4;
   }
   100%{
     transform: rotateX(0deg);
     height: 95%;
-    background-color: #fbfbfb;
+    background-color: #3287ac;
   }
 }
 @keyframes scale{
@@ -79,21 +78,23 @@
   opacity: 0;
   animation: fade-in 1s forwards 1;
   animation-delay: 4s;
+  margin-left: 10px;
 }
 @keyframes fade-in{
   100%{
     opacity: 1;
   }
 }
-.myhpto{
-  width: 80%;
-  height: 80%;
+.myphoto{
+  width: 75%;
+  height: 75%;
   object-fit: contain;
+  
 }
 .heading{
   font-family: 'dosis';
   text-transform: capitalize;
-  color:#ff6262;
+  color:#175186;
   font-weight: 600;
   font-size: 50px;
   line-height: 50px;
@@ -107,33 +108,26 @@
 }
 .info{
   margin: 40px 0;
-  font-family: 'roboto',sans-serif;
+  font-family:'Papyrus';
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 30px;
 }
-.btn{
+.boton{
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 50px;
-  border: 2px solid #ff6262;
+  border: 1px solid #2E4494;
   text-transform: capitalize;
-  color: #ff6262;
-  background: none;
+  color: #eef5f7;
+  background: #2E4494;
   transition: .5s;
   cursor: pointer;
   margin-bottom: 10px;
-
+  text-decoration: none;
 }
-.btn:hover {
-  background: #ff6262;
-  color: #fff;
-}
-.ingreso{
-  padding: 10px 20px;
-  background: #ffeeee;
-  font-family: 'roboto', sans-serif;
-  text-transform: capitalize;
-  margin-left: 20px;
-
+.boton:hover {
+  color: #2E4494;
+  background:none ;
+    
 }

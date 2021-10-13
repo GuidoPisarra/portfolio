@@ -32,7 +32,7 @@ class Card3d extends Component {
       
           
   <div className="contentcard">
-    <h2 className="title">Contacto</h2>
+    <h2 className="title">Acerca de mi...</h2>
     <div className="contactitem">
                 
                 <div className="icon">

@@ -46,6 +46,7 @@ import {v4 as uuidv4} from "uuid";
 
   render() {
     return (
+      
       <div style={{ width: "80%", height: "100px", margin: "0 auto" }}>
         <Carousel
           slides={this.slides}

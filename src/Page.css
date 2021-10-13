@@ -1,7 +1,8 @@
 body{  
-        margin:0px;  
-        height:100%;  
-      }  
+ margin:0px;  
+ height:100%;  
+ background:linear-gradient(to left, #2C5364, #5c8694, #6ec0e4)
+}  
 
 .navlink{
   text-decoration: none;
@@ -12,27 +13,20 @@ body{
   text-align: center;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  outline: rgb(32, 28, 255);
-  background-color: #79a1f0;
-  background-size: 100%, 100%;
-  border-radius: 50%;
-  border: 1px solid rgb(85, 1, 221);
-}
+
 
 .App-header {
-  background-color: #79a1f0;
+  background-color: #2C5364;
   min-height:10vh;
   display:flex;
   flex-direction: column;
   align-items: center;
   justify-content:space-around;
   text-align: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(40px + 2vmin);
   color: white;
- 
+  font-family: 'Papyrus';
+  border-radius: 0 0 10px 10px;
 }
 
 .btn :hover{  
@@ -51,7 +45,6 @@ body{
 .photocv{         
     width: 200px;
     height: 200px;
-    cursor: pointer;
     margin: 2px;
     margin-left: 50px;
     border-radius: 50%;   
@@ -70,7 +63,10 @@ body{
   width: 50%;
   margin-left: 25%;
   margin-bottom: 50px;
-  margin-top: 25px;;
+  margin-top: 25px;
+  font-family: 'Papyrus';
+  font-size: 20px;
+  color: #eef5f7;
 }
 
 .contacto{
@@ -88,7 +84,21 @@ body{
 }
 
 .title{
+  font-family: 'Papyrus';
+  text-transform: capitalize;
+  background-color: #375c6b;
+  color: #eef5f7;
+ 
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around;
   text-align: center;
+  font-size: calc(20px + 2vmin);
+  margin-bottom: 25px;
+  margin-top: 25px;
+  min-height: 12vh;
+  position:static;
 }
 
 .iconocontacto{
@@ -121,11 +131,11 @@ body{
   position: absolute;
   width: 250px;
   height: 150px;
-  background: whitesmoke;
+  background: #5c8694;
   backface-visibility: hidden;
   cursor:pointer;
   border-radius: 20px;
-  box-shadow: 0 5px 30px rgba(163,61,21,0.200),
+  box-shadow: 0 5px 30px rgba(100, 235, 240, 0.589),
   0 -5px 30px rgba(115, 55,  212,0.200 );
   transition : transform .4s ;
 
@@ -141,11 +151,14 @@ body{
   margin: 10px 20px;
   text-align: center;
 }
-.box .front img{
-  width: 100%;
-  height: 100%;
-  border-radius: 0 0 20px 20px;
-  position: absolute;
+.box .front {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around;
+  text-align: center;
+  font-family: 'Papyrus';
+  color:#eef5f7;
 }
 .box:hover .front{
   transform: perspective(800px) rotateX(180deg);
@@ -153,4 +166,28 @@ body{
 .box:hover .back{
   border-radius: 20px 20px 0 0;
   transform: perspective(800px) rotateX(0);
+}
+.css-1fzpoyk:hover{
+    cursor: pointer;
+    
+
+}
+.cole{
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.study{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around;
+  text-align: center;
+  
+}
+.foot{
+  margin-top: 40px;
+  min-height: 10vh;
+  background-color: #375c6b;
 }

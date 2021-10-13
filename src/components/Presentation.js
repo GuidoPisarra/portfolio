@@ -1,7 +1,7 @@
 import React,{Component} from "react";
 import cv from "../img/fotoCV.jpeg"
 import '../App.css'
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import {BrowserRouter as   Router, Route,Link} from 'react-router-dom';
 class Presentation extends Component{
     render(){
         return(
@@ -11,11 +11,11 @@ class Presentation extends Component{
                     <div className="content">
                         <h1 className="heading">Pisarra Guido <span></span></h1>
                         <p className="info">Desarrollador web</p>
-                        <Link className="btn" to='/page'>Ingresar</Link>
+                        <Link className="boton" to='/portfolio'>Ingresar</Link>
                     </div>
                 </div>
                 <div className="col">
-                    <img src="" className="myphoto" alt=""></img>
+                    <img src={cv} className="myphoto" alt=""></img>
                 </div>
             </header>
             </div>
