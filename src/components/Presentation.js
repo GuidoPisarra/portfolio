@@ -11,7 +11,7 @@ class Presentation extends Component{
                     <div className="content">
                         <h1 className="heading">Pisarra Guido <span></span></h1>
                         <p className="info">Desarrollador web</p>
-                        <Link className="boton" to='/portfolio'>Ingresar</Link>
+                        <Link className="boton" to='/portfolio/page'>Ingresar</Link>
                     </div>
                 </div>
                 <div className="col">
