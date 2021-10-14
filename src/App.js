@@ -13,7 +13,7 @@ function App() {
     <Router>
       <div >
       
-          <Route exact path="/" component={Page}/>
+          <Route exact path="/" component={Home}/>
           <Route path="/portfolio" component={Page}></Route>
         
       </div>
